@@ -100,7 +100,7 @@ developer_bootstrap() {
     ## test for require features
     features git mvn java 
 
-    return $1
+  #  return $1
 
     # Clone WebGoat from github
     if [ ! -d "WebGoat" ]; then
